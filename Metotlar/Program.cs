@@ -5,7 +5,7 @@ namespace Metotlar
     class Program
     {
         static void Main(string[] args)
-        {
+        {/*
             string urunadi = "Elma";
             double fiyatı = 15;
             string aciklama = " Amasya elması";
@@ -20,7 +20,7 @@ namespace Metotlar
             Urun urun2 = new Urun();
             urun2.Adi = " Karpuz";
             urun2.Fiyatı = 10;
-            urun2.Aciklama = " Diyarbakır karpuzu";
+            urun2.Aciklama = " Diyarbakır karpuzu"; */
 
             Urun[] urunler = new Urun[] { urun1 , urun2};
 
@@ -29,7 +29,7 @@ namespace Metotlar
                 Console.WriteLine(urun.Adi);
                 Console.WriteLine(urun.Fiyatı);
                 Console.WriteLine(urun.Aciklama);
-            }
+            } 
             Console.WriteLine("-----------Metotlar-------");
 
             SepetManager sepetManager = new SepetManager();
